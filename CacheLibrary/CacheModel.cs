@@ -22,6 +22,8 @@ namespace CacheLibrary
         {
             public string CacheName { get; set; }
             public string CacheValue { get; set; }
+            public int AbsoluteExpirationMinute { get; set; }
+            public int SlidingExpirationMinute { get; set; }
         }
 
         public class ClearCache
